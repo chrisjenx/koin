@@ -104,7 +104,7 @@ class KoinPluginRunTest {
         delay(500)
 
         // verify for can auto-reload
-        (s.environment as ApplicationEngineEnvironmentReloading).reload()
+        s.reload()
         s.stop()
     }
 }
